@@ -1,18 +1,10 @@
 <section id="footer">
 	<div class="row" id="info-block">
 		<div class="twelve columns">
-			<div class="four columns">
+			<div class="seven columns">
 				<h2>Less work. More play.</h2>
 				<p>Get your group or organization started  by creating a group.  Gain access to free tools that ensure there’s more time for play!</p>
-				<a href="#" class="button">Create a group</a>
-			</div>
-			<div class="four columns">
-				<h4>This just in!</h4>
-				<ul>
-					{% for item in site.posts limit: 3 %}
-						<li><a title="{{ item.article_title }}" href="{{ item.url }}">{{ item.article_title | truncate: 85 }}</a></li>
-					{% endfor %}
-				</ul>
+				<a href="/user/register" class="button large">Create an account</a>
 			</div>
 			<div class="four columns">
 				<h4>Look for us here as well!</h4>
@@ -20,17 +12,15 @@
 				<div class="addthis_toolbox addthis_32x32_style addthis_vertical_style">
 					<a class="addthis_button_facebook_follow" addthis:userid="allplayers"></a>
 					<a class="addthis_button_twitter_follow" addthis:userid="allplayers"></a>
-					<a class="addthis_button_linkedin_follow" addthis:userid="allplayers.com-inc."></a>
+					<a class="addthis_button_linkedin_follow" addthis:userid="allplayers.com-inc." addthis:usertype="company"></a>
 					<a class="addthis_button_youtube_follow" addthis:userid="AllPlayersVideos"></a>
 					<a class="addthis_button_vimeo_follow" addthis:userid="allplayers"></a>
 				</div>
-				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-511d24ed5ca19d2f"></script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52093ac51162bc49"></script>
 				<!-- AddThis Follow END -->
-				
 			</div>
 		</div>
 	</div>
-	<div class="row">{% include find-group.snippet %}</div>
 	<div class="row" id="link-list">
 		<div class="twelve columns">
 			<div class="four columns">
@@ -40,7 +30,6 @@
 					<li><a href="benefits/benefits.html">Benefits</a></li>
 					<li><a href="how-to-use.html">How to use</a></li>
 					<li><a href="careers.html">Careers</a></li>
-					<li><a href="media/index.html">Media center</a></li>
 					<li><a href="request-a-demo.html">Request a demo</a></li>
 					<li><a href="contact-us.html">Contact us</a></li>
 				</ul>
@@ -58,8 +47,8 @@
 			<div class="four columns">
 				<h4>Knowledge base</h4>
 				<ul>
-					<li><a href="knowledge-base">Knowledge base</a></li>
-					<li><a href="https://support.allplayers.com">Submit a support ticket</a></li>
+					<li><a href="knowledge-base/">Knowledge base</a></li>
+					<li><a href="https://support.allplayers.com" target="_blank">Submit a support ticket</a></li>
 					<li><a href="branding">Branding</a></li>
 				</ul>
 			</div>

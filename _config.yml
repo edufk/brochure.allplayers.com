@@ -1,6 +1,7 @@
 pygments: true
 server: true
 port: 3000
+baseurl: /brochure
 permalink: ./:title.html
 img: images/global/header-logo.png
 branding_url: branding_index.html

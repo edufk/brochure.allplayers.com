@@ -1,9 +1,9 @@
 <div class="fixed">
-  <div class="contain-to-grid">
+  <div id="main-nav" class="contain-to-grid">
     <nav class="top-bar">
       <ul>
         <li class="name">
-          <a href="{{ site.url }}"> <img src="{{ site.img }}" /> </a>
+          <a href="{{ site.url }}/"> <img src="{{ site.img }}" /> </a>
         </li>
         <li class="toggle-topbar"><a href="#"></a></li>
       </ul>
@@ -40,7 +40,7 @@
             </ul>
         </li>
         <li class="has-dropdown">
-            <a class="active" href="knowledge-base">Knowledge base</a>
+            <a class="active" href="knowledge-base/index.html">Knowledge base</a>
             <ul class="dropdown">
               <li class="has-dropdown">
                 <a href="knowledge-base/basic-user-knowledge/">Basic User Knowledge</a>
@@ -88,12 +88,21 @@
           </ul>
         </li>
       </ul>
+      <div class="show-for-small">
+        <ul class="button-group">
+          <li><a class="button" href="/user">Login</a></li>
+          <li><a class="button secondary" href="/user/register">Create account</a></li>
+          <li><a class="button secondary" href="/group_search">Find groups</a>
+        </ul>
+      </div>
       </section>
       <div class="auth">
-        <a class="small button secondary" href="/user/register">Create account</a>
-        <a class="small button" href="/user">Login</a>
+        <div class="hide-for-small">
+          <a class="small button secondary round" href="/group_search">Find a group</a>
+          <a class="small button secondary round" href="/user/register">Create account</a>
+          <a class="small button round" href="/user">Login</a>
+        </div>
       </div>
     </nav>
-    
   </div>
 </div>

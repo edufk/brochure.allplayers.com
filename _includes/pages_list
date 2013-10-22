@@ -31,7 +31,7 @@ Usage:
         {% if group == null or group == node.group %}
           <li class="{% if page.url == node.url %}active{% endif %} {% if node.dropdown %}has-dropdown{% endif %}">
             {% if page.url == node.url %}
-          	 <a href="{{ site.url }}{{ node.url | replace_first:'/','' }}" class="active {{ node.title | replace:' ','-' | downcase }}">{% else %} <a href="{{ site.url }}{{ node.url | replace_first:'/','' }}" class="{{ node.title | replace:' ','-' | downcase }}"> {% endif %} {% if node.title == "Branding Guide" %} {% else %}{{ node.title }} {% endif %} </a> 
+          	 <a href="{{ site.url }}{{ node.url | replace_first:'/','' }}" class="active {{ node.title | replace:' ','-' | downcase }}">{% else %} <a href="{{ site.url }}{{ node.url }}" class="{{ node.title | replace:' ','-' | downcase }}"> {% endif %} {% if node.title == "Branding Guide" %} {% else %}{{ node.title }} {% endif %} </a> 
             {% if node.dropdown %}
               <ul class="dropdown">
               {% for subweight in (0..20) %}
@@ -43,7 +43,7 @@ Usage:
                         {% assign subnodeweight = 0 %}
                       {% endif %}
                       {% if subweight == subnodeweight %}
-                        <li><a href="{{ site.url }}{{ subnode.url | replace_first:'/','' }}">{{ subnode.title }}</a></li>
+                        <li><a href="{{ site.url }}{{ subnode.url }}">{{ subnode.title }}</a></li>
                       {% endif %}
                     {% endif %}
                   {% endif %}

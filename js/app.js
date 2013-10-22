@@ -32,3 +32,14 @@ $(function() {
   });
 });
 
+$(function() {
+  $('.more-info-button').click(function(){
+    $('.what-is-more-info').slideToggle();
+    $(this).fadeOut('fast');
+    $('html, body').animate({
+      scrollTop: $('#homepage-intro').offset().top
+    }, 1000);
+    return false;
+  });
+});
+

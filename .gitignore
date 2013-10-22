@@ -1,4 +1,7 @@
 _site
+_build
 .DS_Store
 nbproject
+.idea
+Brochure/.idea
 .sass-cache

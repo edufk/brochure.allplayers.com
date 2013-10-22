@@ -72,5 +72,15 @@
         a { background: lighten($black, 30%); border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; @include box-shadow(0 0 0); }
       }
     }
-
+  }
+  header {
+    section {background: transparent;}
+    .contain-to-grid {z-index: 999; @include simpleGradient(#323232); @include slight_dropshadow(#515151); padding: 0; border-bottom: 1px solid #414040;}
+  }
+  @media only screen and (max-width: $screenSmall - 1) {
+    .top-bar {background: transparent;
+      section { min-height: inherit;
+        ul.right {background: black; margin-top: 0;}
+      }
+    }
   }
