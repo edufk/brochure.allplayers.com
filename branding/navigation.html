@@ -4,10 +4,19 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
+  <title>AllPlayers.com</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <base href="/brochure/">
+  <script type='text/javascript'>
+  (function() {
+    var tag = document.createElement('base');
+    tag.href = 'https://' + location.hostname + '/brochure/';
+    var firstScriptTag = document.getElementsByTagName('head')[0];
+    firstScriptTag.appendChild(tag);
+  }());
+</script>
+
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/overrides.css">
   <link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
@@ -41,7 +50,6 @@
     equalHeight($(".eq-home-feature"));
     });
   </script>
-  <title>AllPlayers.com</title>
 </head>
 
 
