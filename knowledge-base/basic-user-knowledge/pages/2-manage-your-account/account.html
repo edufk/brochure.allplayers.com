@@ -12,7 +12,7 @@
   <script type='text/javascript'>
   (function() {
     var tag = document.createElement('base');
-    tag.href = 'https://' + location.hostname + '/brochure/';
+    tag.href = location.protocol + '//' + location.host + '/brochure/';
     var firstScriptTag = document.getElementsByTagName('head')[0];
     firstScriptTag.appendChild(tag);
   }());
