@@ -13562,3 +13562,9 @@ div.kbImageLarge {
 .underline {
   text-decoration: underline;
 }
+
+/**Inline Icons**/
+/* line 298, ../sass/_site.scss */
+.inlineIcon {
+  width: 40px;
+}
