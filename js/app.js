@@ -63,4 +63,11 @@ $(function() {
   }
 });
 
-
+// Modals in HTML included using Jekyll don't work because they aren't a direct child of the body, this fixes that.
+$(function() {
+  $('.blockModalLink').click(
+    function() {
+      $('.blockModal').appendTo(document.body);
+    }
+  )
+});
