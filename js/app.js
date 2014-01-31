@@ -43,15 +43,32 @@ $(function() {
   });
 });
 
-$(function(){
-  $('.kbImage').hover(
-    function(){
-      $(this).next().slideDown();
-    },
-    function() {
-      $(this).next().slideUp();
+// Popup images on the Knowledge Base
+$(document).ready( function() {
+
+  $('.kbImage').click( function(event) {
+
+    // Check if the corresponding large popup image for the currently clicked image is already open.
+    var visible = false;
+    if ($(this).next().is(':visible')) {
+      visible = true;
     }
-  );
+
+    // Close any open large popup images.
+    $('.kbImageLarge').slideUp();
+
+    // Check if the large image was already opened and was just now closed. If so, we don't want to open it again.
+    if (visible == false) {
+      $(this).next().slideToggle();
+    }
+
+    // We don't want the click to be detected at the 'body' level. Stop it right here.
+    event.stopImmediatePropagation();
+  })
+
+  $('body').click( function() {
+    $('.kbImageLarge').slideUp();
+  })
 });
 
 $(function() {
