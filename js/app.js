@@ -72,11 +72,13 @@ $(document).ready( function() {
 });
 
 $(function() {
-  if ($( window ).width() <= 760) {
-    $('body').css('padding-top', '100px')
-  }
-  else {
-    $('body').css('padding-top', '50px')
+  if (!$('body').hasClass('no-header')) {
+    if ($( window ).width() <= 760) {
+      $('body').css('padding-top', '100px')
+    }
+    else {
+      $('body').css('padding-top', '50px')
+    }
   }
 });
 

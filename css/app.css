@@ -7841,60 +7841,82 @@ section#hero-wrapper p {
 }
 /* line 4, ../sass/components/modules/_hero.scss */
 section#hero-wrapper img {
-  margin-top: 30px;
-  margin-left: 25%;
-  width: 50%;
+  margin-bottom: -20px;
+  width: 33%;
 }
 /* line 7, ../sass/components/modules/_hero.scss */
 section#hero-wrapper .partner-feature h1, section#hero-wrapper .partner-feature h2, section#hero-wrapper .partner-feature h3, section#hero-wrapper .partner-feature h4, section#hero-wrapper .partner-feature h5 {
+  text-align: left;
+}
+/* line 9, ../sass/components/modules/_hero.scss */
+section#hero-wrapper .feature-hero-wrapper-img {
   text-align: center;
 }
+/* line 10, ../sass/components/modules/_hero.scss */
+section#hero-wrapper .feature-hero-wrapper-desc {
+  margin-top: 20px;
+}
 
-/* line 11, ../sass/components/modules/_hero.scss */
+/* line 13, ../sass/components/modules/_hero.scss */
 .panel.activate-login {
   margin-bottom: 20px;
 }
 
-/* line 16, ../sass/components/modules/_hero.scss */
+/* line 18, ../sass/components/modules/_hero.scss */
 ul.featured-list li {
   font-weight: 600;
+  list-style-type: none;
+}
+/* line 19, ../sass/components/modules/_hero.scss */
+ul.featured-list li:before {
+  content: '\2022';
+  /* For a square bullet */
+  /*content:'\25A0';*/
+  display: block;
+  position: relative;
+  max-width: 0px;
+  max-height: 0px;
+  left: -15px;
+  top: -5px;
+  color: #ea2b1c;
+  font-size: 20px;
 }
 
-/* line 19, ../sass/components/modules/_hero.scss */
+/* line 35, ../sass/components/modules/_hero.scss */
 section#feature-hero-wrapper {
   background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
   padding-bottom: 20px;
 }
-/* line 20, ../sass/components/modules/_hero.scss */
+/* line 36, ../sass/components/modules/_hero.scss */
 section#feature-hero-wrapper #feature-hero {
   min-height: 126px;
 }
-/* line 22, ../sass/components/modules/_hero.scss */
+/* line 38, ../sass/components/modules/_hero.scss */
 section#feature-hero-wrapper #feature-hero h1 {
   color: white;
   font-size: 71px;
   margin-top: 20px;
   line-height: 60px;
 }
-/* line 23, ../sass/components/modules/_hero.scss */
+/* line 39, ../sass/components/modules/_hero.scss */
 section#feature-hero-wrapper #feature-hero h2 {
   color: white;
   font-size: 27px;
 }
-/* line 24, ../sass/components/modules/_hero.scss */
+/* line 40, ../sass/components/modules/_hero.scss */
 section#feature-hero-wrapper #feature-hero img {
   margin-top: 20px;
 }
 
-/* line 28, ../sass/components/modules/_hero.scss */
+/* line 44, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper {
   background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
 }
-/* line 29, ../sass/components/modules/_hero.scss */
+/* line 45, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper #info-hero {
   height: 126px;
 }
-/* line 31, ../sass/components/modules/_hero.scss */
+/* line 47, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper #info-hero h1 {
   font-size: 71px;
   color: white;
@@ -7902,23 +7924,23 @@ section#info-hero-wrapper #info-hero h1 {
   margin-bottom: 0;
   line-height: 60px;
 }
-/* line 32, ../sass/components/modules/_hero.scss */
+/* line 48, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper #info-hero h2 {
   font-size: 37px;
   color: white;
   margin: 0;
 }
 
-/* line 36, ../sass/components/modules/_hero.scss */
+/* line 52, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper {
   background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
 }
-/* line 37, ../sass/components/modules/_hero.scss */
+/* line 53, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper #knowledge-base-hero {
   height: 126px;
   background: url("../images/knowledge/knowledge-base-hero-bg.png") no-repeat right center;
 }
-/* line 39, ../sass/components/modules/_hero.scss */
+/* line 55, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper #knowledge-base-hero h1 {
   color: white;
   font-size: 59px;
@@ -7926,7 +7948,7 @@ section#knowledge-hero-wrapper #knowledge-base-hero h1 {
   margin-bottom: 0;
   line-height: 60px;
 }
-/* line 40, ../sass/components/modules/_hero.scss */
+/* line 56, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper #knowledge-base-hero h2 {
   color: white;
   font-size: 37px;
@@ -7934,7 +7956,7 @@ section#knowledge-hero-wrapper #knowledge-base-hero h2 {
 }
 
 @media only screen and (max-width: 759px) {
-  /* line 45, ../sass/components/modules/_hero.scss */
+  /* line 61, ../sass/components/modules/_hero.scss */
   section#hero-wrapper {
     *zoom: 1;
     background: #474747;
@@ -7951,7 +7973,7 @@ section#knowledge-hero-wrapper #knowledge-base-hero h2 {
   section#hero-wrapper:after {
     clear: both;
   }
-  /* line 46, ../sass/components/modules/_hero.scss */
+  /* line 62, ../sass/components/modules/_hero.scss */
   section#hero-wrapper h1 {
     color: white;
     text-shadow: 1px 1px black;
@@ -7960,14 +7982,14 @@ section#knowledge-hero-wrapper #knowledge-base-hero h2 {
     line-height: 60px;
     text-align: center;
   }
-  /* line 47, ../sass/components/modules/_hero.scss */
+  /* line 63, ../sass/components/modules/_hero.scss */
   section#hero-wrapper p {
     color: white;
     font-size: 17px;
     margin-bottom: 0;
     text-align: left;
   }
-  /* line 48, ../sass/components/modules/_hero.scss */
+  /* line 64, ../sass/components/modules/_hero.scss */
   section#hero-wrapper img {
     margin: 0;
     width: 100%;
@@ -8033,31 +8055,14 @@ section#knowledge-hero-wrapper #knowledge-base-hero h2 {
 /* Partners ------------------------------------------- */
 /* line 4, ../sass/components/modules/_buttons.scss */
 section.partners-ss .button, div.partners-ss .button {
+  text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  background: #e85d4a;
-  background: -moz-linear-gradient(top, #e85d4a 0%, #b52a17 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e85d4a), color-stop(100%, #b52a17));
-  background: -webkit-linear-gradient(top, #e85d4a 0%, #b52a17 100%);
-  background: -o-linear-gradient(top, #e85d4a 0%, #b52a17 100%);
-  background: -ms-linear-gradient(top, #e85d4a 0%, #b52a17 100%);
-  background: linear-gradient(to bottom, #e85d4a 0%, #b52a17 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
-  border: 1px solid #9e2414;
-}
-/* line 5, ../sass/components/modules/_buttons.scss */
-section.partners-ss .button:hover, section.partners-ss .button:focus, div.partners-ss .button:hover, div.partners-ss .button:focus {
-  background: #e2341d;
-  background: -moz-linear-gradient(top, #e2341d 0%, #881f11 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2341d), color-stop(100%, #881f11));
-  background: -webkit-linear-gradient(top, #e2341d 0%, #881f11 100%);
-  background: -o-linear-gradient(top, #e2341d 0%, #881f11 100%);
-  background: -ms-linear-gradient(top, #e2341d 0%, #881f11 100%);
-  background: linear-gradient(to bottom, #e2341d 0%, #881f11 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
+  background: #ea2b1c;
+  border: 1px solid #aa1b10;
 }
 /* line 7, ../sass/components/modules/_buttons.scss */
 section.partners-ss .button.large, div.partners-ss .button.large {
-  font-size: 21px;
+  font-size: 16px;
 }
 
 /* Normal Buttons ---------------------- */
@@ -13068,14 +13073,15 @@ footer .footer-branding {
 /* Partners ------------------------------------------- */
 /* line 3, ../sass/_site.scss */
 section.partners-ss h1, section.partners-ss h2, section.partners-ss h3, section.partners-ss h4, section.partners-ss h5, section.partners-ss h6, div.partners-ss h1, div.partners-ss h2, div.partners-ss h3, div.partners-ss h4, div.partners-ss h5, div.partners-ss h6 {
-  color: #e2341d;
-  text-align: center;
+  color: #ea2b1c;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
 /* line 4, ../sass/_site.scss */
 section.partners-ss img, div.partners-ss img {
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 /* line 5, ../sass/_site.scss */
 section.partners-ss h3, div.partners-ss h3 {
