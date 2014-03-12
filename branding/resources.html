@@ -54,7 +54,7 @@
 </head>
 
 
-  <body class="branding-guide front">
+  <body class="branding-guide">
 
 <!-- Header and Nav -->
 <header class="contain-to-grid branding">
@@ -1062,8 +1062,9 @@
       
       
         
-          <li class=" ">
-             <a href="/brochure/branding/resources.html" class="resources-and-reference">  Resources and Reference  </a> 
+          <li class="active ">
+            
+          	 <a href="/brochurebranding/resources.html" class="active resources-and-reference"> Resources and Reference  </a> 
             
           </li>
         
@@ -1075,9 +1076,8 @@
       
       
         
-          <li class="active ">
-            
-          	 <a href="/brochurebranding/index.html" class="active branding-guide">   </a> 
+          <li class=" ">
+             <a href="/brochure/branding/index.html" class="branding-guide">    </a> 
             
           </li>
         
@@ -19395,337 +19395,53 @@
 <!-- End Header and Nav -->
 <!-- Front page layout for brochure branding site -->
   
-    <div class="row branding-wrapper">
-      
-
-
-
-
-<div class="row centered" id="feature-hero">
-  <div class="color-overlay left">
-    <div class="five hide-for-small columns" id="feature-image">
-      <img src="images/branding/breezi_placeit.png" />
-    </div>
-    <div class="seven mobile-two columns">
-      <h1>Branding Guide</h1>
-      <h2 class="subheader">For Designers and Developers</h2>
-      <h4>Welcome to the resource for AllPlayers.com branding guidelines. Here you can find various styled elements for your next AllPlayers related project.</h4>
-    </div>
-  </div>
-</div>
-<div class="row" id="banner-shading"><div class="left one"></div> <div class="right one"></div></div>
-
-
-
-      <div class="row">
-        <div class="twelve columns">
-	<article>
-  	<div class="six columns">
-	    <div class="panel eq-home-feature" id="for-designers">
-	    	<h4>For Designers</h4>
-				<div class="row">
-		      <div class="four hide-for-small columns">
-		      	<img src="images/branding/for-designers.png"/>
-		     	</div>
-		      <div class="eight columns">
-		      	<p>This resource is intended to be a guide for designers when theming or styling everything AllPlayers. Built with SASS, the styles for this branding guide are meant to be simple to implement. </p>
-		      </div>
-				</div>	    
-	    </div>
-	  </div>
-	</article>
-	<article>
-  	<div class="six columns">
-	    <div class="panel eq-home-feature" id="for-designers">
-	    	<h4>For Developers</h4>
-			<div class="row">
-		      <div class="four hide-for-small columns">
-		      	<img src="images/branding/for-developers.png"/>
-		     	</div>
-		      <div class="eight columns">
-		      	<p>Not sure how to format certain elements for AllPlayers aplications? This branding resource contains excerpts and code snippets of "dream markup". By ensuring the proper markup, applications can retain consistant style across the board.</p>
-				<div>
-			</div>	    
-	    </div>
-	  </div>
-	</article>
-	<article>
-			
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-      
-    
-  
-
-  
-    
-      
-    
-  
-
-  
-    
-      
-    
-  
-
-  
-    
-      
-        
-        <div class="left" id="branding-job">
-        
-          <div class="twelve columns">
-<h3>Want to join our growing team?</h3>
-<h4 class="subheader">We're always looking for the most talented Drupal developers and member service leaders with recreation and group activities experience. We value the wide spectrum of experience our teammates bring to the enhancement of the AllPlayers.com service!</h4>
-<a href="#" class="large button">Learn more about careers at Allplayers.com</a>
-</div>
-        </div>
-      
-    
-  
-
-  
-    
-      
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-	</article>	
-</div>
-
-      </div>
-    </div>
-  
   <!-- END Front page layout for brochure branding site -->
 
   <!-- Sub page layout for brochure branding site -->
+  
+    <!-- If there is no layout keyword -->
+    <div class="row branding-wrapper">
+      <section class="twelve columns">
+          <h2>Resources and Reference</h2>
+  <hr>
+	<div class="panel twelve columns white special-header resources-guide">
+		<h5>Zurb Foundation</h5>
+		<p>
+			AllPlayers class system is based off of <a href="http://foundation.zurb.com/docs/v/3.2.5/components.php">Foundation 3.2.5</a>, a compass plugin that uses SASS. In order to view all of the classes you need to use in order to format elements, blocks and pages please visit <a href="http://foundation.zurb.com/docs/v/3.2.5/components.php">HERE</a>. Here you can also find code examples of what you need to theme your next AllPlayers related project and make it look consistant with AllPlayers styles.
+		</p>
+		<img src="images/branding/zurb-foundation.svg" width="300px" />
+  </div>
+  <div class="panel twelve columns white special-header">
+		<h5>Compass</h5>
+		<img src="images/branding/compass-logo.png" />
+		<p>
+			<a href="http://compass-style.org/">Compass</a> is an open-source CSS Authoring Framework. In addition to allowing you to write SASS (and generate CSS) it also has many built in functions that makes CSS generation fast and easy. Please look at <a href="http://compass-style.org/reference/compass/">the reference doc</a> to view what types of built-in <strong>mixins</strong> and <strong>helpers</strong> can make your CSS generation experience faster and more efficient.
+		</p>
+		<span>In order to compile CSS while you are writing SCSS simply type: <pre class="highlight plaintext" style="display:inline-block; margin-bottom: 3px;">$ compass watch</pre> into the command-line inside the project folder.</span>
+  	<span>If there is a merge conflict in a css file it is best practice to run <pre class="highlight plaintext" style="display:inline-block;">$ compass clean; compass compile; </pre> in order to remove and recompile the CSS.</span>
+  </div>
+  <div class="panel twelve columns white special-header">
+  	<h5>The Importance of the Gem Bundler</h5>
+
+  	<p><a href="http://bundler.io/">Bundler</a></p>
+  	<p>Inside of the Basic Foundation theme file there is a Ruby Gem bundle that installs all the necessary gems <em>(AND NECESSARY VERSIONS OF GEMS)</em> that you need to get started with theming in SASS.</p>
+
+  	<span>Simply type <pre class="highlight plaintext" style="display:inline;">$ bundle install</pre> into the command-line while you are inside of the basic_foundation folder and all of the necessary gems will be installed. </span>  	
+  </div>
+
+  <div class="panel twelve columns white special-header">
+  	<h5>Jekyll</h5>
+  	<p>All of our brochure sites (including this one) are built using <a href="http://jekyllrb.com/">Jekyll.</a></p>
+
+  	<span>Simply type <pre class="highlight plaintext" style="display:inline;">$ jekyll serve -w</pre> into the command-line while you are inside the project folder in order to compile and serve your files on the localhost. Read more about Jekyll <a href="http://jekyllrb.com/">here</a>.</span>
+  	<br />
+  	<br />
+
+  	<p>Jekyll is built using the liquid markup language. Visit <a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">here </a> to see some basic examples of how this language is used.</p>
+  </div>
+
+      </section>
+    </div>
   
 <!-- END Sub page layout for brochure branding site -->
 <footer class="branding-guide row">
@@ -20731,7 +20447,7 @@
 		      
 		        
 		          
-		          <div class="section-wrapper three columns left resources-and-reference">
+		          <div class="section-wrapper three columns left active resources-and-reference">
 
 			          	<h5 class="white"><a href="/branding/resources.html">Resources and Reference</a></h5>
 			          
