@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<head>
+  <title>AllPlayers.com</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <base id="basetag" href="/brochure/">
+<!--[if IE]>
+<script type='text/javascript'>
+  (function() {
+    var tag = document.getElementById('basetag');
+    tag.href = location.protocol + '//' + location.host + '/brochure/';
+  }());
+</script>
+<![endif]-->
+
+  <link rel="stylesheet" href="css/app.css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/foundation/modernizr.foundation.js"></script>
+  <script src="js/foundation/jquery.js"></script>
+  <script src="js/foundation/foundation.min.js"></script>
+  <script src="js/foundation/app.js"></script>
+  
+</head>
+
+
+  <body class="no-header">
+
+  
+
+  
+  <!-- // One column template with hero --> 
+    
+      <section id="hero-wrapper" class="ss-feature-partner" >
+        
+
+
+
+
+<div class="row partner-feature partners-ss">
+  <div class="twelve mobile-four columns">
+    <a href="http://www.schedulestar.com"><img class="centered columns" src="images/USA_TODAY_ScheduleStar.png"></a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+      </section>
+    
+    <section>
+      <div class="row">
+        <section class="ten columns centered partners-ss">
+  </br>
+  <h3>Thank you for your submission!</h3>
+  </br>
+
+  <div class="panel">Thank you for submitting your request to purchase the Schedule Star Marketplace Gold package. A representative will contact you to review your order and finalize your purchase.
+  </div>
+  <br/>
+
+  <p>Be sure to email the following information to marketplace@schedulestar.com</p>
+  <ul class="content">
+    <li>Company Logo</li>
+    <li>Company description</li>
+    <li>Hyperlink to website</li>
+    <li>Email Listing</li>
+    <li>Banner ad (300x250)
+  </ul>
+
+  <p>If you purchased the Spotlight add-on then you also need to supply the following graphics</p>
+  <ul class="content">
+    <li>Banner (300x250)</li>
+    <li>Click url for banner</li>
+  </ul>
+  </br>
+
+  <a class="button--midLightGrey" href="http://schedulestarmarketplace.com/">Return to the ScheduleStar Marketplace</a>
+
+</section>
+
+      </div>
+    </section>
+  <!-- // END One columns template with hero -->
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+    <footer style="margin-top:20px; height: 50px;">&nbsp;</footer>
+  
+    <script>
+      $(document).ready(function(){
+        $('#features').click(function(){
+          $("#joyRideTipContent").joyride({
+
+          });
+          
+          $('a.joyride-next-tip').click(function(){
+            var data = $(this).closest('.joyride-tip-guide').attr('data-index');
+
+            if(data == 1) {
+              $('.enterprise-tab a').click();
+            }
+          });
+        });
+
+      });
+    </script>
+</body>
+</html>
