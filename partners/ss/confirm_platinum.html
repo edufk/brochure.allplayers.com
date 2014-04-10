@@ -67,7 +67,20 @@
     
     <section>
       <div class="row">
-        <section class="ten columns centered partners-ss">
+        <script src="https://www.allplayers.com/sites/all/libraries/allplayers.js/bin/allplayers.embed.server.js" type="text/javascript"></script>
+<script type="text/javascript">
+  var ehost = allplayers.embed.getParam('ehost');
+  var ehost = allplayers.base64.decode(ehost);
+  $.pm({
+    target: window.parent,
+    type: 'noframe',
+    url: ehost,
+    data: {
+      href: window.location.href
+    }
+  });
+</script>
+<section class="ten columns centered partners-ss">
 
   </br>
   <h3>Thank you for your submission!</h3>
