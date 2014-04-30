@@ -1677,11 +1677,11 @@
   
 
   
-  
+
   
 
   
-  <!-- // Basic informational page tempalte with right column and hero --> 
+  <!-- // Basic informational page tempalte with right column and hero -->
     <section id="knowledge-hero-wrapper">
       
 
@@ -1801,7 +1801,7 @@ AllPlayers.com takes the privacy of our members and their families seriously.</p
 </div>
 
 <div id="question9" class="reveal-modal [expand, xlarge, large, medium, small]">
-  <p>If you experience a bug, or would like to suggest a new feature, we invite you to <a href="http://support.allplayers.com/tickets/new">submit a support ticket</a>.</p>
+  <p>If you experience a bug, or would like to suggest a new feature, we invite you to <a href="http://support.allplayers.com/hc/communities/public/questions/new">create a topic</a>.</p>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 
@@ -2554,7 +2554,7 @@ AllPlayers.com takes the privacy of our members and their families seriously.</p
 
 	</div>
 </div>
- 
+
         </div>
         <div class="four columns">
           
@@ -2971,13 +2971,29 @@ AllPlayers.com takes the privacy of our members and their families seriously.</p
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+        @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+    </style>
+    <script type="text/javascript">
+        if (typeof(Zenbox) !== "undefined") {
+            Zenbox.init({
+                dropboxID:   "20161340",
+                url:         "https://support.allplayers.com",
+                tabTooltip:  "Support",
+                tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_support_right.png",
+                tabColor:    "black",
+                tabPosition: "Right"
+            });
+        }
+    </script>
   <!-- // END Basic informational page template with right column and hero -->
   
 
   
 
   
-  
+
   
   
     <section id="demo">
@@ -3033,7 +3049,7 @@ AllPlayers.com takes the privacy of our members and their families seriously.</p
 					<li><a href="how-to-use.html">How to use</a></li>
 					<li><a href="careers.html">Careers</a></li>
 					<li><a href="request-a-demo.html">Request a demo</a></li>
-					<li><a href="contact-us.html">Contact us</a></li>
+					<li><a href="https://support.allplayers.com/hc/en-us/requests/new">Contact us</a></li>
 				</ul>
 			</div>
 			<div class="four columns">
@@ -3066,7 +3082,7 @@ AllPlayers.com takes the privacy of our members and their families seriously.</p
           $("#joyRideTipContent").joyride({
 
           });
-          
+
           $('a.joyride-next-tip').click(function(){
             var data = $(this).closest('.joyride-tip-guide').attr('data-index');
 

@@ -1677,7 +1677,7 @@
   
 
   
-  
+
   
 
   
@@ -1691,7 +1691,7 @@
       });
     });
     </script>
-  <!-- // Basic informational page tempalte with right column and hero --> 
+  <!-- // Basic informational page tempalte with right column and hero -->
     <section id="knowledge-hero-wrapper">
       
 
@@ -2476,15 +2476,31 @@
     <p>While you are customizing your page, leave your Dashboard window open. You can add or remove many boxes at once, and move them around your page, as long as your Dashboard is open. Once you finish customizing your page, click the <strong>Save Changes</strong> button to save and apply all of your changes.</p>
   </div>
 </div>
- 
+
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+        @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+    </style>
+    <script type="text/javascript">
+        if (typeof(Zenbox) !== "undefined") {
+            Zenbox.init({
+                dropboxID:   "20161340",
+                url:         "https://support.allplayers.com",
+                tabTooltip:  "Support",
+                tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_support_right.png",
+                tabColor:    "black",
+                tabPosition: "Right"
+            });
+        }
+    </script>
   <!-- // END Basic informational page template with right column and hero -->
   
 
   
-  
+
   
   
     <section id="demo">
@@ -2540,7 +2556,7 @@
 					<li><a href="how-to-use.html">How to use</a></li>
 					<li><a href="careers.html">Careers</a></li>
 					<li><a href="request-a-demo.html">Request a demo</a></li>
-					<li><a href="contact-us.html">Contact us</a></li>
+					<li><a href="https://support.allplayers.com/hc/en-us/requests/new">Contact us</a></li>
 				</ul>
 			</div>
 			<div class="four columns">
@@ -2573,7 +2589,7 @@
           $("#joyRideTipContent").joyride({
 
           });
-          
+
           $('a.joyride-next-tip').click(function(){
             var data = $(this).closest('.joyride-tip-guide').attr('data-index');
 

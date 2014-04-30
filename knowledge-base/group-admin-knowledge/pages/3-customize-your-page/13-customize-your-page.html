@@ -1677,7 +1677,7 @@
   
 
   
-  
+
   
 
   
@@ -1691,7 +1691,7 @@
       });
     });
     </script>
-  <!-- // Basic informational page tempalte with right column and hero --> 
+  <!-- // Basic informational page tempalte with right column and hero -->
     <section id="knowledge-hero-wrapper">
       
 
@@ -2431,15 +2431,31 @@
 		</ul>
 	</div>
 </div>
- 
+
         </div>
       </div>
     </section>
+    <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+    <style type="text/css" media="screen, projection">
+        @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+    </style>
+    <script type="text/javascript">
+        if (typeof(Zenbox) !== "undefined") {
+            Zenbox.init({
+                dropboxID:   "20161340",
+                url:         "https://support.allplayers.com",
+                tabTooltip:  "Support",
+                tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_support_right.png",
+                tabColor:    "black",
+                tabPosition: "Right"
+            });
+        }
+    </script>
   <!-- // END Basic informational page template with right column and hero -->
   
 
   
-  
+
   
   
     <section id="demo">
@@ -2495,7 +2511,7 @@
 					<li><a href="how-to-use.html">How to use</a></li>
 					<li><a href="careers.html">Careers</a></li>
 					<li><a href="request-a-demo.html">Request a demo</a></li>
-					<li><a href="contact-us.html">Contact us</a></li>
+					<li><a href="https://support.allplayers.com/hc/en-us/requests/new">Contact us</a></li>
 				</ul>
 			</div>
 			<div class="four columns">
@@ -2528,7 +2544,7 @@
           $("#joyRideTipContent").joyride({
 
           });
-          
+
           $('a.joyride-next-tip').click(function(){
             var data = $(this).closest('.joyride-tip-guide').attr('data-index');
 
