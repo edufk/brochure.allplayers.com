@@ -1,0 +1,20 @@
+{
+  "vendors": [
+    {
+      "name": "MobileTrec - Keeping kids safe",
+      "link": "http://marketplace.allplayers.com",
+      "background": "#F00"
+    },
+    {
+      "name": "TeamSnap - Group Mobile App",
+      "link": "http://marketplace.allplayers.com",
+      "background": "#858"
+    },
+    {
+      "name": "GVC - Spirit Wear",
+      "link": "http://marketplace.allplayers.com",
+      "background": "#00F"
+    }
+  ],
+  "suffix": " - Advertisement"
+}
