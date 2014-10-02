@@ -1,22 +1,22 @@
 {
   "vendors": [
     {
-      "name": "Product 1",
-      "description": "Description of product 1.",
-      "logo_image_url": "",
-      "link": "http://marketplace.allplayers.com"
+      "name": "MindSight",
+      "description": "Who are You – Find out Now!",
+      "logo_image_url": "/brochure/resources/vendor-icons/MS45X45.png",
+      "link": "https://mindsightinc.com/"
     },
     {
-      "name": "Product 2",
-      "description": "Description of product 2.",
-      "logo_image_url": "",
-      "link": "http://marketplace.allplayers.com"
+      "name": "EDUsystems",
+      "description": "Innovation for Education",
+      "logo_image_url": "/brochure/resources/vendor-icons/EDU45x45.png",
+      "link": "http://edusystems.net/"
     },
     {
-      "name": "Product 3",
-      "description": "Description of product 3.",
-      "logo_image_url": "",
-      "link": "http://marketplace.allplayers.com"
+      "name": "Allies Personal Safety App",
+      "description": "Advanced technology that keeps you and your team safe 24/7.",
+      "logo_image_url": "/brochure/resources/vendor-icons/Allies_App_Icon.png",
+      "link": "http://alliesapp.com/"
     }
   ]
 }
