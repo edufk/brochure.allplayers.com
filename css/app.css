@@ -2354,7 +2354,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/images/foundation/orbit/rotator-black.png?1395692871') no-repeat;
+  background: url('/images/foundation/orbit/rotator-black.png?1402588468') no-repeat;
   z-index: 3;
 }
 .orbit-wrapper span.rotator.move {
@@ -2373,7 +2373,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 .orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/images/foundation/orbit/timer-black.png?1395692871') repeat 0 0;
+  background: url('/images/foundation/orbit/timer-black.png?1402588468') repeat 0 0;
 }
 .orbit-wrapper span.pause {
   display: block;
@@ -2382,12 +2382,12 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/images/foundation/orbit/pause-black.png?1395692871') no-repeat;
+  background: url('/images/foundation/orbit/pause-black.png?1402588468') no-repeat;
   z-index: 4;
   opacity: 0;
 }
 .orbit-wrapper span.pause.active {
-  background: url('/images/foundation/orbit/pause-black.png?1395692871') no-repeat 0 -40px;
+  background: url('/images/foundation/orbit/pause-black.png?1402588468') no-repeat 0 -40px;
 }
 .orbit-wrapper .timer:hover span.pause, .orbit-wrapper .timer:focus span.pause, .orbit-wrapper span.pause.active {
   opacity: 1;
@@ -2428,21 +2428,21 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   cursor: pointer;
 }
 .orbit-wrapper .slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow.png?1395692871');
+  background: url('/images/foundation/orbit/right-arrow.png?1402588468');
   background-size: 100%;
   right: 0;
 }
 .orbit-wrapper .slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow.png?1395692871');
+  background: url('/images/foundation/orbit/left-arrow.png?1402588468');
   background-size: 100%;
   left: 0;
 }
 
 .lt-ie9 .orbit-wrapper .slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow-small.png?1395692871');
+  background: url('/images/foundation/orbit/right-arrow-small.png?1402588468');
 }
 .lt-ie9 .orbit-wrapper .slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow-small.png?1395692871');
+  background: url('/images/foundation/orbit/left-arrow-small.png?1402588468');
 }
 
 /* Bullet Nav ---------------------- */
@@ -2461,7 +2461,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -9999px;
-  background: url('/images/foundation/orbit/bullets.jpg?1395692871') no-repeat 4px 0;
+  background: url('/images/foundation/orbit/bullets.jpg?1402588468') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -9098,7 +9098,7 @@ div.orbit-wrapper span.rotator {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/images/foundation/orbit/rotator-black.png?1395692871') no-repeat;
+  background: url('/images/foundation/orbit/rotator-black.png?1402588468') no-repeat;
   z-index: 3;
 }
 div.orbit-wrapper span.rotator.move {
@@ -9117,7 +9117,7 @@ div.orbit-wrapper span.mask {
 div.orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/images/foundation/orbit/timer-black.png?1395692871') repeat 0 0;
+  background: url('/images/foundation/orbit/timer-black.png?1402588468') repeat 0 0;
 }
 div.orbit-wrapper span.pause {
   display: block;
@@ -9126,12 +9126,12 @@ div.orbit-wrapper span.pause {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/images/foundation/orbit/pause-black.png?1395692871') no-repeat;
+  background: url('/images/foundation/orbit/pause-black.png?1402588468') no-repeat;
   z-index: 4;
   opacity: 0;
 }
 div.orbit-wrapper span.pause.active {
-  background: url('/images/foundation/orbit/pause-black.png?1395692871') no-repeat 0 -40px;
+  background: url('/images/foundation/orbit/pause-black.png?1402588468') no-repeat 0 -40px;
 }
 div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper div.timer:focus span.pause, div.orbit-wrapper span.pause.active {
   opacity: 1;
@@ -9172,21 +9172,21 @@ div.orbit-wrapper div.slider-nav span {
   cursor: pointer;
 }
 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow.png?1395692871');
+  background: url('/images/foundation/orbit/right-arrow.png?1402588468');
   background-size: 100%;
   right: 0;
 }
 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow.png?1395692871');
+  background: url('/images/foundation/orbit/left-arrow.png?1402588468');
   background-size: 100%;
   left: 0;
 }
 
 .lt-ie9 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow-small.png?1395692871');
+  background: url('/images/foundation/orbit/right-arrow-small.png?1402588468');
 }
 .lt-ie9 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow-small.png?1395692871');
+  background: url('/images/foundation/orbit/left-arrow-small.png?1402588468');
 }
 
 /* Bullet Nav ---------------------- */
@@ -9205,7 +9205,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -9999px;
-  background: url('/images/foundation/orbit/bullets.jpg?1395692871') no-repeat 4px 0;
+  background: url('/images/foundation/orbit/bullets.jpg?1402588468') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -11581,6 +11581,10 @@ h5 span.toggler.toggler.collapsed {
 .addthis_toolbox.addthis_vertical_style a {
   margin-top: 10px;
   border-bottom: 1px solid #e5e5e5;
+}
+.addthis_toolbox.addthis_vertical_style a .at4-icon {
+  float: left;
+  margin-right: 5px;
 }
 
 .auth {

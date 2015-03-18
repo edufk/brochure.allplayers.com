@@ -240,7 +240,9 @@ h5 {
 .addthis_toolbox.addthis_vertical_style { padding: 8px; }
 
 .addthis_toolbox.addthis_vertical_style { width: 100%;
-  a { margin-top: 10px; border-bottom: 1px solid $midLightGrey; }
+  a { margin-top: 10px; border-bottom: 1px solid $midLightGrey;
+    .at4-icon { float: left; margin-right: 5px; }
+  }
 }
 
 .auth { padding: 5px; float: right;
